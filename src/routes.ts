@@ -4,9 +4,9 @@ import { SectionOrdersComponent } from './app/Sections/section-orders/section-or
 import { SectionHealthComponent } from './app/Sections/section-health/section-health.component';
 
 export const appRoutes: Routes = [
-    { path: 'sales', component: SectionSalesComponent},
-    { path: 'orders', component: SectionOrdersComponent},
-    { path: 'health', component: SectionHealthComponent},
+    { path: 'inventor', component: SectionSalesComponent},
+    { path: 'vault', component: SectionOrdersComponent},
+    { path: 'factory', component: SectionHealthComponent},
 
-    { path: '', redirectTo: '/sales', pathMatch: 'full'},
+    { path: '', redirectTo: '/inventor', pathMatch: 'full'},
 ]

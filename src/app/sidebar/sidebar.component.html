@@ -1,17 +1,11 @@
-<ul class="mav mav-pills flex-column">
-    <li class="nav-item">
-        <a class="nav-link" routerLink="/sales">Sales Volume</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" routerLink="/orders">Latest Orders</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" routerLink="/health">System Health</a>
-    </li>
-</ul>
-
-<ul>
-    <li *ngFor link in links>
-        <a routeLink="[link.routValue]">{{link.Name}}</a>
-    </li>
-</ul>
+<div class="mav mav-pills flex-column">
+    <div class="nav-item">
+        <a class="nav-link" routerLink="/inventor">Inventer</a>
+    </div>
+    <div class="nav-item">
+        <a class="nav-link" routerLink="/vault">Vault</a>
+    </div>
+    <div class="nav-item">
+        <a class="nav-link" routerLink="/factory">Factory</a>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+.nav-link {
+    font-size: 1.5em;
+    color: #040705;
+    background-color: antiquewhite;
+    outline: 2px solid;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

@@ -1,16 +1,18 @@
 .logo{
-    color: #fff;
     font-weight: bold;
     font-size: 1.4em;
 }
 
 .logo-left{
-    background-color: #ff6b6b;
+    color: rgb(253, 254, 255);
+    background-color: #366979;
     padding: 3px 5px 3px 8px;
     border-radius: 4px;
 }
 .logo-right{
+    letter-spacing: 2px;
+    color: rgb(2, 2, 2);
     padding: 3px 8px 3px 3px;
-    margin-left: -5px;
+    margin-left: -2px;
     border-radius: 4px;
 }
