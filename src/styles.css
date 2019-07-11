@@ -21,6 +21,11 @@ body {
     padding: 30px;
 }
 
+.section-header {
+    color: black;
+    font-weight: bold;
+}
+
 .card-theme {
     background-color: #191F26;
     border: none;

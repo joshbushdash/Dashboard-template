@@ -14,6 +14,7 @@ import { BarChartComponent } from './Charts/bar-chart/bar-chart.component';
 import { LineChartComponent } from './Charts/line-chart/line-chart.component';
 import { PieChartComponent } from './Charts/pie-chart/pie-chart.component';
 import { ServerComponent } from './server/server.component';
+import { FilterbarComponent } from './filterbar/filterbar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ServerComponent } from './server/server.component';
     BarChartComponent,
     LineChartComponent,
     PieChartComponent,
-    ServerComponent
+    ServerComponent,
+    FilterbarComponent
   ],
   imports: [
     BrowserModule,

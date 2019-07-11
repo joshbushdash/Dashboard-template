@@ -1,15 +1,27 @@
+#navbar{
+    background-color: rgb(167, 217, 230)!important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25);
+}
+
 #sideBar{
     height: 100vh;
-    padding-top: 80px;
+    padding-top: 100px;
     position: fixed;
     background-color: rgb(176, 204, 195);
 }
 
-#dashboard{
-    margin-top: 60px;
+#filterbar{
+    height: 6vh;
+    width: 100%;
+    color: rgb(2, 90, 177)!important;
+    margin-top: 65px;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 2;
 }
 
-#navbar{
-    background-color: rgb(167, 217, 230)!important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25);
+#dashboard{
+    margin-top: 100px;
+    position: bottom;
+    z-index: 1;
 }
