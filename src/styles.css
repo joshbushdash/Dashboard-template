@@ -18,7 +18,7 @@ body {
 }
 
 .section-container {
-    padding: 30px;
+    padding: 20px;
 }
 
 .section-header {
@@ -27,20 +27,23 @@ body {
 }
 
 .card-theme {
-    background-color: #191F26;
+    background-color: rgb(230, 233, 236);
     border: none;
     border-radius: 2px;
 }
 
-.card-header-theme {
-    color: #eee;
+.card-header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(4, 13, 131);
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     padding: 12px
 }
 
 .card-body-theme{
-    background-color: rgb(34, 38, 43);
+    background-color: rgb(255, 255, 255);
 }
 
 .card {
